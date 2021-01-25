@@ -1,0 +1,155 @@
+.capture {
+  font-size: 30px;
+  color: #4e008e  ;
+}
+.card {
+  width: 250px;
+  height: 430px;
+  box-shadow: 0px 3px 6px rgba(109, 109, 109, 0.2),
+    0px -3px 6px rgba(102, 102, 102, 0.2);
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+    Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji !important;
+  h6 {
+    color: #4e008e;
+  }
+
+  p {
+    color: #444444;
+  }
+
+  footer {
+    .detailsBtn {
+      background: rgba(173, 161, 161, 0.24);
+      color: #4e008e !important;
+      border: none !important;
+      outline: none !important;
+      appearance: none !important;
+      border-radius: 0;
+      font-size: 13px;
+      padding: 8px 10px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+      &:hover {
+        background: #9054c22d;
+      }
+    }
+    .date {
+      font-size: 13px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    justify-content: center !important;
+    .card {
+      width: 220px;
+      height: 420px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 160px !important;
+    height: 330px !important;
+    footer {
+      padding: 8px 4px !important;
+    }
+
+    .detailsBtn {
+      font-size: 12px !important;
+      padding: 0px 2px !important;
+    }
+
+    .date {
+      font-size: 12px !important;
+    }
+
+    h5 {
+      font-size: medium !important;
+    }
+
+    p {
+      font-size: small;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100% !important;
+    height: 380px !important;
+    img {
+      height: 250px !important;
+    }
+
+    footer {
+      padding: 10px !important;
+      .detailsBtn {
+        font-size: 16px !important;
+        padding: 5px 20px !important;
+      }
+
+      .date {
+        font-size: 16px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 378px) {
+  .card {
+    height: 330px !important;
+    img {
+      height: 200px !important;
+    }
+
+    .card-title {
+      font-size: 15px !important;
+    }
+
+    footer {
+      padding: 10px !important;
+      .detailsBtn {
+        font-size: 12px !important;
+        padding: 5px 20px !important;
+      }
+
+      .date {
+        font-size: 12px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .card {
+    height: 300px !important;
+    img {
+      height: 160px !important;
+    }
+    .card-title {
+      font-size: 12px !important;
+    }
+
+    .card-subtitle {
+      font-size: 10px !important;
+    }
+
+    footer {
+      padding: 5px 3px !important;
+
+      .detailsBtn {
+        padding: 4px !important;
+      }
+
+      .date {
+        font-size: 10px !important;
+      }
+    }
+  }
+}

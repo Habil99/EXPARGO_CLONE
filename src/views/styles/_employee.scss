@@ -1,0 +1,12 @@
+.employee {
+  font-size: 32px !important;
+  color: #4e008e;
+  font-weight: bolder;
+}
+a {
+  width: calc(100% / 6 - 10px);
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+}

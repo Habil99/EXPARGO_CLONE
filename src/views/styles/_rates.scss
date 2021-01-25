@@ -1,0 +1,50 @@
+$purple: #4e008e;
+
+.rates {
+  width: 100%;
+  max-width: 1250px;
+  .heading {
+    margin: 48px 0px 8px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    span {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif !important;
+      color: $purple;
+      padding: 10px;
+    }
+    .pills {
+      padding: 10px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      button {
+        padding: 8px 20px;
+        border: none;
+        outline: none;
+        appearance: none;
+        display: flex;
+        color: $purple;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 300ms all;
+        &.activeTab {
+          color: white;
+          background: $purple;
+        }
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

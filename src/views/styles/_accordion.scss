@@ -1,0 +1,38 @@
+* {
+  outline: none !important;
+  text-decoration: none !important;
+  appearance: none;
+  font-family: "Montserrat", sans-serif;
+}
+.card {
+  width: 100%;
+  .card-header {
+    padding: 2px !important;
+    h2 {
+      padding: 0 !important;
+      margin: 0 !important;
+      button {
+        font-size: 13px !important;
+        padding: 2px !important;
+        margin: 0 !important;
+        margin-left: 4px !important;
+        color: #4e008e;
+        font-weight: 700 !important;
+        &:focus {
+          box-shadow: none !important;
+        }
+      }
+    }
+  }
+}
+.card-body {
+  position: relative;
+  img {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0px, -50%);
+    width: 15px;
+    height: 15px;
+  }
+}
